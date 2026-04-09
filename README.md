@@ -1,6 +1,6 @@
 # LANDNAX
 
-PC-8001用シューティングゲーム for PasocomMini, Emulator
+PC-8001用シューティングゲーム for PasocomMini, Emulator  
 月刊マイコン , 電波新聞社, 1989年 4月号掲載  
 
 ## How to execute on Emulator
