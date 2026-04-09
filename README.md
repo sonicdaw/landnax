@@ -9,9 +9,9 @@ PC-8001用シューティングゲーム for PasocomMini, Emulator
 3. run
 
 ## Files for Emulator
-/cmt/landnax.cmt (N-BASIC プログラム)
-/cmt/landnax_m_all.cmt (マシン語プログラム)
-Replaced copyright with 1989,2026 ENTAFLIP
+/cmt/landnax.cmt (N-BASIC プログラム)  
+/cmt/landnax_m_all.cmt (マシン語プログラム)  
+Replaced copyright with 1989,2026 ENTAFLIP  
 
 ## How to execute on Pasocom mini
 1. /PCM に ファイル landnax, landnax_m_all を保存して、Pasocom mini(PC-8001) を起動する
@@ -25,7 +25,7 @@ Replaced copyright with 1989,2026 ENTAFLIP
 
 ## Original Files for Pasocom mini
 landnax: N-BASIC プログラム (起動用)  
-landnax_m_all: マシン語プログラム (全部)
+landnax_m_all: マシン語プログラム (全部)  
 /files/landnax_m1: マシン語プログラム (A000-A7EF)  
 /files/landnax_m2: マシン語プログラム (B500-C28E)  
 /files/landnax_m3: マシン語プログラム (9000-9852)  
