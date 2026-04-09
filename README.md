@@ -1,9 +1,19 @@
 # LANDNAX
 
-PasocomMini(PC-8001)用シューティングゲーム  
+PC-8001用シューティングゲーム for PasocomMini, Emulator
 月刊マイコン , 電波新聞社, 1989年 4月号掲載  
 
-## How to execute
+## How to execute on Emulator
+1. load landnax_m_all.cmt
+2. load landnax.cmt
+3. run
+
+## Files for Emulator
+/cmt/landnax.cmt (N-BASIC プログラム)
+/cmt/landnax_m_all.cmt (マシン語プログラム)
+Replaced copyright with 1989,2026 ENTAFLIP
+
+## How to execute on Pasocom mini
 1. /PCM に ファイル landnax, landnax_m_all を保存して、Pasocom mini(PC-8001) を起動する
 2. [F9] を押し、MEDIA タブで landnax_m_all を set する
 3. mon [Enter]
@@ -13,7 +23,7 @@ PasocomMini(PC-8001)用シューティングゲーム
 7. CLOAD "landnax" [Enter]
 8. run
 
-## Files
+## Original Files for Pasocom mini
 landnax: N-BASIC プログラム (起動用)  
 landnax_m_all: マシン語プログラム (全部)
 /files/landnax_m1: マシン語プログラム (A000-A7EF)  
@@ -24,7 +34,7 @@ landnax_m_all: マシン語プログラム (全部)
 /files/landnax_m6: マシン語データ (D000-DD85)  
 /files/checksum: N-BASIC プログラム (入力チェック用)  
 
-## ゲームパッド設定
+## ゲームパッド設定 for Pasocom mini
 [F9] を押し、GAMEPAD タブで下記を設定する
 
 [2]: DOWN (デフォルト設定)  
