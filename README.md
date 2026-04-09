@@ -3,17 +3,18 @@
 PC-8001用シューティングゲーム for PasocomMini, Emulator  
 月刊マイコン , 電波新聞社, 1989年 4月号掲載  
 
-## How to execute on Emulator
+## Emulator
+### How to execute
 1. load landnax_m_all.cmt
 2. load landnax.cmt
 3. run
 
-## Files for Emulator
-/cmt/landnax.cmt (N-BASIC プログラム)  
+### Files
+/cmt/landnax.cmt (N-BASIC プログラム) - 1989,2026 ENTAFLIP 表記  
 /cmt/landnax_m_all.cmt (マシン語プログラム)  
-Replaced copyright with 1989,2026 ENTAFLIP  
 
-## How to execute on Pasocom mini
+## Pasocom mini
+### How to execute
 1. /PCM に ファイル landnax, landnax_m_all を保存して、Pasocom mini(PC-8001) を起動する
 2. [F9] を押し、MEDIA タブで landnax_m_all を set する
 3. mon [Enter]
@@ -23,18 +24,11 @@ Replaced copyright with 1989,2026 ENTAFLIP
 7. CLOAD "landnax" [Enter]
 8. run
 
-## Original Files for Pasocom mini
+### Files
 landnax: N-BASIC プログラム (起動用)  
 landnax_m_all: マシン語プログラム (全部)  
-/files/landnax_m1: マシン語プログラム (A000-A7EF)  
-/files/landnax_m2: マシン語プログラム (B500-C28E)  
-/files/landnax_m3: マシン語プログラム (9000-9852)  
-/files/landnax_m4: マシン語データ (B000-B3A7)  
-/files/landnax_m5: マシン語データ (C400-C5C8)  
-/files/landnax_m6: マシン語データ (D000-DD85)  
-/files/checksum: N-BASIC プログラム (入力チェック用)  
 
-## ゲームパッド設定 for Pasocom mini
+### ゲームパッド設定
 [F9] を押し、GAMEPAD タブで下記を設定する
 
 [2]: DOWN (デフォルト設定)  
@@ -48,3 +42,16 @@ landnax_m_all: マシン語プログラム (全部)
 
 (参考)  
 https://www.pcmini.jp/manual/pc-8001-manual/pc-8001-stting/gamepad/
+
+## Files
+landnax: N-BASIC プログラム (起動用)  
+landnax_m_all: マシン語プログラム (全部)  
+/cmt/landnax.cmt: N-BASIC プログラム - 1989,2026 ENTAFLIP 表記 (起動用)  
+/cmt/landnax_m_all.cmt: マシン語プログラム (全部)  
+/files/landnax_m1: マシン語プログラム (A000-A7EF)  
+/files/landnax_m2: マシン語プログラム (B500-C28E)  
+/files/landnax_m3: マシン語プログラム (9000-9852)  
+/files/landnax_m4: マシン語データ (B000-B3A7)  
+/files/landnax_m5: マシン語データ (C400-C5C8)  
+/files/landnax_m6: マシン語データ (D000-DD85)  
+/files/checksum: N-BASIC プログラム (入力チェック用)  
